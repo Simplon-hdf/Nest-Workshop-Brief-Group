@@ -1,0 +1,1 @@
+# Brief en groupe pour le Workshop Nest
