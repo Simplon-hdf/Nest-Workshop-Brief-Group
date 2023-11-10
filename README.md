@@ -5,7 +5,6 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
 ## Spécifications non fonctionnelles
 
 - Les utilisateurs doivent être authentifié afin d'effectuer des actions sur les articles.
-- Les utilisateurs doivent avoir les fonds nécessaires sur leur compte pour pouvoir acheter des articles.
 - Un article doit avoir un propriétaire.
 
 ## Spécifications fonctionnelles
