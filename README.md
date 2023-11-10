@@ -10,4 +10,4 @@ Vous devez travaillez en groupe sur un des projets présentés ci-dessous. Pour 
 
 - API d'e-commerce (Simple, ~2 à ~3 heures) [Voir le projet](https://github.com/benjGam/Nest-Workshop-Brief-Group/tree/01-api-d'e-commerce)
 - API interne pour une Médiathèque (Moyen, ~9h à ~16 heures) [Voir le projet](https://github.com/benjGam/Nest-Workshop-Brief-Group/tree/02-api-interne-mediatheque)
-- API d'enregistrement d'informations de serveur Discord (Compliqué, ~1 à ~3 jours) [lien à venir]()
+- API d'enregistrement d'informations de serveur Discord (Compliqué, ~1 à ~3 jours) [Voir le projet](https://github.com/benjGam/Nest-Workshop-Brief-Group/tree/03-api-discord)
