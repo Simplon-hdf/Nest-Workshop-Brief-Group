@@ -4,6 +4,7 @@ Vous devez créer une API pour les employés d'une médiatèques, ces employés 
 
 ## Spécifications non fonctionnelles
 
+- Les employés doivent être authentifiés afin d'effectuer des opérations.
 - Chaque livre doit avoir un nom et un autheur.
 - Chaque livre peut être sujet à un emprun de la part d'un client de la médiathèque.
 - Chaque emprun à un date de début et une date de fin.
