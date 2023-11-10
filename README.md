@@ -4,7 +4,7 @@ Vous devez créer une API pour permettre à des Bots Discord d'enregister les in
 
 ## Spécifications fonctionnelles
 
-- Les réponses de l'API doivent être normalisées au format suivant de façon automatique[¹](#) :
+- Les réponses de l'API doivent être normalisées au format suivant de façon automatique[¹](#explain) :
   - `message` : Ce champ contient un message expliquant quelle opération selon quels critères s'est exécutée correctement (e.g: Guild for 'guild_uuid' uuid has been found).
   - `data` : Ce champ contient les données de l'opération.
   - `statusCode` : Ce champ contient le code de status de la requête (Un code HTTP)
