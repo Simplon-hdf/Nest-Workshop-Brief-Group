@@ -12,7 +12,7 @@ Vous devez créer une API pour permettre à des Bots Discord d'enregister les in
 
 ### Annexes
 
-<a id="explain"></a>¹ : Pour ce faire vous devez utiliser un intercepteur et coder un système qui créer un message cohérent en fonction du contexte et qui normalise automatiquement la réponse.
+<a id="explain"></a>¹ : Pour ce faire vous devez utiliser un intercepteur et coder un système qui crée un message cohérent en fonction du contexte et qui normalise automatiquement la réponse.
 
 ### Glossaire
 
