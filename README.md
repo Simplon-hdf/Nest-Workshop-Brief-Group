@@ -15,4 +15,4 @@ Vous devez créer une API pour les employés d'une médiatèques, ces employés 
   - `message` : Ce champ contient un message expliquant quelle opération selon quels critères s'est exécutée correctement (e.g: Book for 'book_uuid' uuid has been found).
   - `data` : Ce champ contient les données de l'opération.
   - `statusCode` : Ce champ contient le code de status de la requête (Un code HTTP)
-- Les erreurs d'accession aux données via `Prisma` doivent être automatiquement gérées et renvoyées des réponses claires expliquant la raison de l'erreur sans encombrer les logs de l'API. Vous devez coder ce système grâce à un intercepteur.
+- Les erreurs d'accession aux données via `Prisma` doivent être automatiquement gérées et renvoyées des réponses claires expliquant la raison de l'erreur sans encombrer les logs de l'API en plus, le code de status de la réponse doit être celui qui correspond à l'erreur survenue. Vous devez coder ce système grâce à un intercepteur.
