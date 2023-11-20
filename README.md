@@ -48,11 +48,11 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
 Pour normaliser vos réponses, faites comme suit :
 
 ```ts
-public maLogicPourRécupererUnProduit(uuid: string) {
-  //Logic de récupération
+public logicToGetProduct(uuid: string) {
+  //Logic
   return {
     message: `Product for '${uuid}' has been getted.`
-    data: ,//Les données du produit
+    data: ,//Product datas
     statusCode: HTTPStatus.OK,
   }
 }
