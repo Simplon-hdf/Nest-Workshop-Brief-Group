@@ -93,8 +93,8 @@ Les méthodes doivent être agencées de la même façon dans les controlleurs e
 ## Spécifications techniques globales
 
 - Les réponses d'API doivent être normalisées.
-  - <details>
-  <summary>Exemple</summary>
+<details>
+  - <summary>Exemple</summary>
 
   Pour normaliser vos réponses, faites comme suit :
 
