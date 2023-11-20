@@ -36,14 +36,6 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
   - Une date de création (De type DATE)
   - Une date d'expédition (De type DATE)
 
-## Spécifications techniques
-
-- Les réponses de l'API doivent être normalisées au format suivant :
-  - `message` : Ce champ contient un message expliquant quelle opération selon quels critères s'est exécutée correctement (e.g: User for 'user_uuid' uuid has been found).
-  - `data` : Ce champ contient les données de l'opération.
-  - `statusCode` : Ce champ contient le code de status de la requête (Le code HTTP correspondant)
-- L'API doit être documentée avec `Swagger`.
-
 ### Exemple
 
 Pour normaliser vos réponses, faites comme suit :
