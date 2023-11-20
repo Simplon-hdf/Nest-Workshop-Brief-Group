@@ -4,10 +4,12 @@ Vous devez créer une API pour les employés d'une médiatèque, ces employés d
 
 ## Spécifications fonctionnelles
 
-- Les employés doivent être authentifiés afin d'effectuer des opérations.
-- Chaque livre doit avoir un nom et un autheur.
-- Chaque livre peut être sujet à un emprunt de la part d'un client de la médiathèque.
-- Chaque emprunt à un date de début et une date de fin.
+## Employés
+
+- Les employés doivent être composés des champs :
+  - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
+  - Un prénon (De type VARCHAR et de longueur 20 (maximale))
+  - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
 
 ## Spécifications techniques
 
