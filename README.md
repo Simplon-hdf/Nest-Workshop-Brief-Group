@@ -8,9 +8,9 @@ Vous devez travaillez en groupe sur un des projets présentés ci-dessous. Pour 
 
 ## Les projets disponibles
 
-- API d'e-commerce [Voir le projet](https://github.com/benjGam/Nest-Workshop-Brief-Group/tree/01-api-d'e-commerce)
-- API interne pour une Médiathèque [Voir le projet](https://github.com/benjGam/Nest-Workshop-Brief-Group/tree/02-api-interne-mediatheque)
-- API d'enregistrement d'informations de serveur Discord (Bonus) [Voir le projet](https://github.com/benjGam/Nest-Workshop-Brief-Group/tree/03-api-discord)
+- API d'e-commerce [Voir le projet](./e-commerce/README.md)
+- API interne pour une Médiathèque [Voir le projet](./mediatheque/README.md)
+- API d'enregistrement d'informations de serveur Discord (Bonus) [Voir le projet](./discord-bot/README.md)
 
 ## Qualité de code
 
