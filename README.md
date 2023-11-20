@@ -87,3 +87,11 @@ Dans l'ordre :
 Les méthodes doivent être agencées de la même façon dans les controlleurs et les services, pour permettre de naviguer facilement dans le code.
 
 </details>
+
+## Spécifications techniques globales
+
+- Les réponses d'API doivent être normalisées au format suivant :
+  - `message` : Ce champ contient un message expliquant quelle opération selon quels critères s'est exécutée correctement (e.g: User for 'user_uuid' uuid has been found).
+  - `data` : Ce champ contient les données de l'opération.
+  - `statusCode` : Ce champ contient le code de status de la requête (Le code HTTP correspondant)
+- Les APIs doivent être documentées avec `Swagger`.
