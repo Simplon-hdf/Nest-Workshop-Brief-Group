@@ -4,7 +4,7 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
 
 ## Spécifications fonctionnelles
 
-## Employés
+### Employés
 
 - Les employés doivent être composés des champs :
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
@@ -13,7 +13,7 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
   - Une adresse e-mail (De type VARCHAR et de longueur 80 (maximale))
   - Un mot de passe (De type VARCHAR et de longueur 72 (minimale et maximale))
 
-## Livres
+### Livres
 
 - Les livres doivent être composés des champs :
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
@@ -21,21 +21,21 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
   - Une description (De type TEXT et de longueur 500 (maximale))
   - L'UUID d'un autheur
 
-## Autheurs
+### Autheurs
 
 - Les autheurs doivent être composés des champs :
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
   - Un prénon (De type VARCHAR et de longueur 20 (maximale))
   - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
 
-## Emprunteurs
+### Emprunteurs
 
 - Les emprunteurs doivent être composés des champs : 
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
   - Un prénon (De type VARCHAR et de longueur 20 (maximale))
   - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
   
-## Emprunts
+### Emprunts
 
 - Les emprunts doivent être composés des champs :
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
