@@ -7,10 +7,10 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
 ### Utilisateurs
 
 - Les Utilsateurs doivent être composés des champs :
-  - UUID (De type VARCHAR de longueur 36)
-  - Un pseudo (De type VARCHAR de longueur 20)
-  - Un nom d'utilisateur (De type VARCHAR de longueur 30)
-  - Un mot de passe (De type VARCHAR de longeur 72)
+  - UUID (De type VARCHAR de longueur 36 (minimale et maximale))
+  - Un pseudo (De type VARCHAR de longueur 20 (maximale))
+  - Un nom d'utilisateur (De type VARCHAR de longueur 30 (maximale))
+  - Un mot de passe (De type VARCHAR de longeur 72 (minimale et maximale))
   - Une date de création (De type DATE)
 - Les Utilisateurs doivent être authentifiés afin d'effectuer des commandes sur les produits.
 
