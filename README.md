@@ -11,5 +11,4 @@ Vous devez créer une API pour les employés d'une médiatèque, ces employés d
 
 ## Spécifications techniques
 
-- Les réponses de l'API doivent être normalisées.
 - Les erreurs d'accession aux données via `Prisma` doivent être automatiquement gérées et renvoyées des réponses claires expliquant la raison de l'erreur sans encombrer les logs de l'API en plus, le code de status de la réponse doit être celui correspondant à l'erreur survenue. Vous devez coder ce système grâce à un intercepteur.
