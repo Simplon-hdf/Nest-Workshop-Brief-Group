@@ -4,15 +4,15 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
 
 ## Spécifications fonctionnelles
 
-### Clients
+### Utilisateurs
 
-- Les Clients doivent être composés des champs :
+- Les Utilsateurs doivent être composés des champs :
   - UUID (De type VARCHAR de longueur 36)
   - Un pseudo (De type VARCHAR de longueur 20)
   - Un nom d'utilisateur (De type VARCHAR de longueur 30)
   - Un mot de passe (De type VARCHAR de longeur 72)
   - Une date de création (De type DATE)
-- Les Clients doivent être authentifiés afin d'effectuer des commandes sur les produits.
+- Les Utilisateurs doivent être authentifiés afin d'effectuer des commandes sur les produits.
 
 ### Produits
 
