@@ -1,6 +1,6 @@
 # API d'e-commerce
 
-Vous devez créer une API pour permettre à des utilisateurs de poster des articles à la vente, d'acheter des articles et de supprimer leurs articles de la vente.
+Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de commander des articles.
 
 ## Spécifications fonctionnelles
 
@@ -51,11 +51,11 @@ Pour normaliser vos réponses, faites comme suit :
 public maLogicPourRécupererUnProduit(uuid: string) {
   //Logic de récupération
   return {
-    message: `Produit for '${uuid}' has been getted.`
+    message: `Product for '${uuid}' has been getted.`
     data: ,//Les données du produit
     statusCode: HTTPStatus.OK,
   }
 }
 ```
 
-Ou d'une autre façon qui renverrait le même résultat.
+Ou d'une autre façon qui renverrait un résultat similaire.
