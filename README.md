@@ -62,23 +62,38 @@ Ou d'une autre façon qui renverrait un résultat similaire.
 
 ## Qualité de code
 
-Les méthodes dans les controlleurs et dans les services doivent être nommées de la même façon.
+- Les méthodes dans les controlleurs et dans les services doivent être nommées de la même façon.
 <details>
 <summary>Exemple</summary>
 
-`controller.ts`
+`products.controller.ts`
 
 ```ts
 public getByUUID(uuid: string) {
-  service.getProductByUUID(uuid);
+  service.getByUUID(uuid);
 }
 ```
 
-`service.ts`
+`products.service.ts`
 
 ```ts
 public getByUUID(uuid: string) {
   //logic here
 }
 ```
+</details>
+- Le nommage des méthodes doit permettre de comprendre ce qu'elles font.
+<details>
+<summary>Exemple</summary>
+
+`products.controller.ts`
+
+```ts
+public getByUUID(uuid: string) {
+  //...
+}
+```
+
+Ici, en lisant le nom "getByUUID" on sait qu'on récupère un **Produit** (Car la méthode se situe dans le controlleur **Product**) et on sait sur quel critère se base la récupération du Produit (Ici l'UUID).
+
 </details>
