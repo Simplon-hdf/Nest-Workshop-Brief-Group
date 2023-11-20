@@ -17,9 +17,9 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
 ### Produits
 
 - Les produits doivent être composés des champs :
-  - UUID (De type VARCHAR de longueur 36)
-  - Un nom (De type VARCHAR de longueur 20)
-  - Une description (De type LONGTEXT de longueur 500)
+  - UUID (De type VARCHAR de longueur 36 (minimale et maximale))
+  - Un nom (De type VARCHAR de longueur 20 (maximale))
+  - Une description (De type LONGTEXT de longueur 500 (maximale))
   - Un prix unitaire (De type FLOAT)
   - Une quantité (De type INT >= 1)
   - Une date d'ajout (De type DATE)
@@ -28,13 +28,13 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
 ### Commandes
 
 - Les commandes doivent être composées des champs :
-  - Un numéro (De type INT en auto-increment)
+  - Un numéro de commande (De type INT en auto-increment)
   - L'UUID d'un Client
   - L'UUID d'un Produit
   - Une quantité de produit (De type INT >= 1)
-  - Un prix total (TTC)
+  - Un prix total (HT)
   - Une date de création (De type DATE)
-  - Une date d'expedition (De type DATE)
+  - Une date d'expédition (De type DATE)
 
 ## Spécifications techniques
 
