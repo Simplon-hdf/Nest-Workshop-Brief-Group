@@ -32,6 +32,15 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
   - Un prénon (De type VARCHAR et de longueur 20 (maximale))
   - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
+  
+## Emprunts
+
+- Les emprunts doivent être composés des champs :
+  - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
+  - L'UUID d'un livre (De type VARCHAR et de longueur 36 (minimale et maximale))
+  - L'UUID d'un emprunteur (De type VARCHAR et de longueur 36 (minimale et maximale))
+  - Une date de début (De type DATE)
+  - Une date de fin (De type DATE)
 
 ## Spécifications techniques
 
