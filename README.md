@@ -4,12 +4,12 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
 
 ## Spécifications fonctionnelles
 
-- Les utilisateurs doivent être composés des champs :
+- Les Clients doivent être composés des champs :
   - UUID (De type VARCHAR de longueur 36)
   - Un pseudo (De type VARCHAR de longueur 20)
   - Un nom d'utilisateur (De type VARCHAR de longueur 30)
   - Un mot de passe (De type VARCHAR de longeur 72)
-- Les utilisateurs doivent être authentifié afin d'effectuer des commandes sur les produits.
+- Les Clients doivent être authentifié afin d'effectuer des commandes sur les produits.
 - Les produits doivent être composés des champs :
   - UUID (De type VARCHAR de longueur 36)
   - Un nom (De type VARCHAR de longueur 20)
@@ -18,6 +18,14 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
   - Une quantité (De type INT >= 1)
   - Une date d'ajout (De type DATE)
   - Une date de mise à jour (De type DATE)
+- Les commandes doivent être composées des champs :
+  - Un numéro (De type INT en auto-increment)
+  - L'UUID d'un Client
+  - L'UUID d'un Produit
+  - Une quantité de produit (De type INT >= 1)
+  - Un prix total (TTC)
+  - Une date de création (De type DATE)
+  - Une date d'expedition (De type DATE)
 
 ## Spécifications techniques
 
