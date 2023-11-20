@@ -95,3 +95,20 @@ Les méthodes doivent être agencées de la même façon dans les controlleurs e
   - `data` : Ce champ contient les données de l'opération.
   - `statusCode` : Ce champ contient le code de status de la requête (Le code HTTP correspondant)
 - Les APIs doivent être documentées avec `Swagger`.
+
+### Exemple
+
+Pour normaliser vos réponses, faites comme suit :
+
+```ts
+public logicToGetProduct(uuid: string) {
+  //Logic
+  return {
+    message: `Product for '${uuid}' has been getted.`
+    data: ,//Product datas
+    statusCode: HTTPStatus.OK,
+  }
+}
+```
+
+Ou d'une autre façon qui renverrait un résultat similaire.
