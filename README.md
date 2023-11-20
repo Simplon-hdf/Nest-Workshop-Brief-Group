@@ -97,3 +97,41 @@ public getByUUID(uuid: string) {
 Ici, en lisant le nom "getByUUID" on sait qu'on récupère un **Produit** (Car la méthode se situe dans le controlleur **Product**) et on sait sur quel critère se base la récupération du Produit (Ici l'UUID).
 
 </details>
+- Les déclarations des méthodes doivent être dans un ordre précis et constant.
+<details>
+<summary>Exemple</summary>
+
+`products.controller.ts`
+
+```ts
+public create(@Body() createProductDto: CreateProductDto) {}
+
+public getByUUID(uuid: string) {}
+
+public updateByUUID(uuid: string, @Body() updateProductDto: UpdateProductDto) {}
+
+public deleteByUUID(uuid: string) {}
+```
+
+`products.service.ts`
+
+```ts
+public create(createProductDto: CreateProductDto) {}
+
+public getByUUID(uuid: string) {}
+
+public updateByUUID(uuid: string, updateProductDto: UpdateProductDto) {}
+
+public deleteByUUID(uuid: string) {}
+```
+
+Dans l'ordre :
+
+- Les routes `POST`.
+- Les routes `GET`.
+- Les routes `PUT/PATCH`.
+- Les routes `DELETE`.
+
+Les méthodes doivent être agencées de la même façon dans les controlleurs et les services, pour permettre de naviguer facilement dans le code.
+
+</details>
