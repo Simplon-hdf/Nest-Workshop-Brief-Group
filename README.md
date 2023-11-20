@@ -20,3 +20,18 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
   - `message` : Ce champ contient un message expliquant quelle opération selon quels critères s'est exécutée correctement (e.g: User for 'user_uuid' uuid has been found).
   - `data` : Ce champ contient les données de l'opération.
   - `statusCode` : Ce champ contient le code de status de la requête (Un code HTTP)
+
+### Exemple
+
+Pour normaliser vos réponses, faites comme suit :
+
+```ts
+public maLogicPourRécupererUnProduit(uuid: string) {
+  //Logic de récupération
+  return {
+    message: `Produit for '${uuid}' has been getted.`
+    data: ,//Les données du produit
+    statusCode: HTTPStatus.OK,
+  }
+}
+```
