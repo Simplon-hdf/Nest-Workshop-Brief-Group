@@ -34,6 +34,7 @@ public getByUUID(uuid: string) {
 }
 ```
 </details>
+
 - Le nommage des méthodes doit permettre de comprendre ce qu'elles font.
 <details>
 <summary>Exemple</summary>
@@ -49,6 +50,7 @@ public getByUUID(uuid: string) {
 Ici, en lisant le nom "getByUUID" on sait qu'on récupère un **Produit** (Car la méthode se situe dans le controlleur **Product**) et on sait sur quel critère se base la récupération du Produit (Ici l'UUID).
 
 </details>
+
 - Les déclarations des méthodes doivent être dans un ordre précis et constant.
 <details>
 <summary>Exemple</summary>
