@@ -11,6 +11,7 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
   - Un pseudo (De type VARCHAR de longueur 20)
   - Un nom d'utilisateur (De type VARCHAR de longueur 30)
   - Un mot de passe (De type VARCHAR de longeur 72)
+  - Une date de création (De type DATE)
 - Les Clients doivent être authentifié afin d'effectuer des commandes sur les produits.
 
 ### Produits
