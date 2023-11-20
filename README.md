@@ -59,3 +59,26 @@ public maLogicPourRécupererUnProduit(uuid: string) {
 ```
 
 Ou d'une autre façon qui renverrait un résultat similaire.
+
+## Qualité de code
+
+Les méthodes dans les controlleurs et dans les services doivent être nommées de la même façon.
+<details>
+<summary>Exemple</summary>
+
+`controller.ts`
+
+```ts
+public getByUUID(uuid: string) {
+  service.getProductByUUID(uuid);
+}
+```
+
+`service.ts`
+
+```ts
+public getByUUID(uuid: string) {
+  //logic here
+}
+```
+</details>
