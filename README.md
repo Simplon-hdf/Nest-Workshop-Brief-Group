@@ -5,6 +5,14 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
 ## Spécifications non fonctionnelles
 
 - Les utilisateurs doivent être authentifié afin de consulter la liste des produits.
+- Les produits doivent être composés des champs :
+  - UUID (De type VARCHAR de longueur 36)
+  - Un nom (De type VARCHAR de longueur 20)
+  - Une description (De type LONGTEXT de longueur 500)
+  - Un prix unitaire (De type FLOAT)
+  - Une quantité (De type INT >= 1)
+  - Une date d'ajout (De type DATE)
+  - Une date de mise à jour (De type DATE)
 
 ## Spécifications fonctionnelles
 
