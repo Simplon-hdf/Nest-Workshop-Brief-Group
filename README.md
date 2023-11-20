@@ -48,3 +48,5 @@ public maLogicPourRécupererUnProduit(uuid: string) {
   }
 }
 ```
+
+Ou d'une autre façon qui renverrait le même résultat.
