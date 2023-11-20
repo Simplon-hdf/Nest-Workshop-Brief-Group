@@ -9,7 +9,7 @@ Vous devez créer une API pour permettre à des utilisateurs de poster des artic
   - Un pseudo (De type VARCHAR de longueur 20)
   - Un nom d'utilisateur (De type VARCHAR de longueur 30)
   - Un mot de passe (De type VARCHAR de longeur 72)
-- Les utilisateurs doivent être authentifié afin de consulter la liste des produits.
+- Les utilisateurs doivent être authentifié afin d'effectuer des commandes sur les produits.
 - Les produits doivent être composés des champs :
   - UUID (De type VARCHAR de longueur 36)
   - Un nom (De type VARCHAR de longueur 20)
