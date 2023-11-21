@@ -8,7 +8,8 @@ Vous devez créer une API pour permettre à des Bots Discord d'enregister les in
 
 ## Spécifications fonctionnelles
 
-
+- L'API doit permettre d'enregistrer toutes les informations d'une guild Discord.
+- L'API doit permettre d'enregistrer toutes les informations des membres de cette guild.
 
 ## Spécifications techniques
 
