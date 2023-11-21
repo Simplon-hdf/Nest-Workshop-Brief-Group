@@ -6,6 +6,10 @@ Vous devez créer une API pour permettre à des Bots Discord d'enregister les in
 
 ![](assets/schem.png)
 
+## Spécifications fonctionnelles
+
+
+
 ## Spécifications techniques
 
 - Les réponses de l'API doivent être normalisées de façon automatique[¹](#explain) :
