@@ -35,3 +35,13 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
   - Un prix total (HT)
   - Une date de création (De type DATE)
   - Une date d'expédition (De type DATE)
+
+## Merise
+
+### MCD
+
+![](assets/mcd.png)
+
+### MLD
+
+![](assets/mld.png)
