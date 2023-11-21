@@ -2,6 +2,10 @@
 
 Vous devez créer une API pour permettre à des Bots Discord d'enregister les informations d'un Serveur Discord, dans le but d'utiliser ces informations ultérieurement.
 
+## Architecture
+
+![](assets/schem.png)
+
 ## Spécifications fonctionnelles
 
 - Les réponses de l'API doivent être normalisées de façon automatique[¹](#explain) :
