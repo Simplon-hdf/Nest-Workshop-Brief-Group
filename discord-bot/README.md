@@ -20,6 +20,6 @@ Vous devez créer une API pour permettre à des Bots Discord d'enregister les in
 
 <a id="explain"></a>¹ : Pour ce faire vous devez utiliser un intercepteur et coder un système qui crée un message cohérent en fonction du contexte et qui normalise automatiquement la réponse.
 
-### Glossaire
+### Termes techniques
 
 - `Guild` : Le terme Guild signifie `Serveur Discord`.
