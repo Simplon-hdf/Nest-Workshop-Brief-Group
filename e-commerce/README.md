@@ -6,7 +6,7 @@ Vous devez créer une API d'e-commerce pour permettre à des utilisateurs de com
 
 ### Utilisateurs
 
-- Les Utilsateurs doivent être composés des champs :
+- Les Utilisateurs doivent être composés des champs :
   - UUID (De type VARCHAR de longueur 36 (minimale et maximale))
   - Un pseudo (De type VARCHAR de longueur 20 (maximale))
   - Un nom d'utilisateur (De type VARCHAR de longueur 30 (maximale))
