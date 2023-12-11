@@ -43,7 +43,7 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
   - L'UUID d'un emprunteur (De type VARCHAR et de longueur 36 (minimale et maximale))
   - Une date de début (De type DATE)
   - Une date de fin (De type DATE)
-  - Un état (De type INT >= 0 ou <= 2)
+  - Un état (Représenté par une enum nommée : "Borrow State" qui contient les entrées : 'ONGOING' et 'CLOSED')
 
 ## Merise
 
