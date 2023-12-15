@@ -1,4 +1,4 @@
-# API interne pour une Médiathéque
+# API interne pour une Médiathèque
 
 Vous devez créer une API pour les employés d'une médiathèque, ces employés doivent référencer chaque livre sur le site de la médiathèque pour examiner les disponibilités des livres.
 
@@ -19,7 +19,7 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
   - Un nom (De type VARCHAR et de longueur 40 (maximale))
   - Une description (De type TEXT et de longueur 500 (maximale))
-  - L'UUID d'un autheur
+  - L'UUID d'un auteur
 
 ### Auteurs
 

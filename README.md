@@ -14,7 +14,7 @@ Vous devez travailler en groupe sur un des projets présentés ci-dessous. Pour 
 
 ## Qualité de code
 
-- Les méthodes dans les controlleurs et dans les services doivent être nommées de la même façon.
+- Les méthodes dans les contrôleurs et dans les services doivent être nommées de la même façon.
 <details>
 <summary>Exemple</summary>
 
@@ -86,7 +86,7 @@ Dans l'ordre :
 - Les routes `PUT/PATCH`.
 - Les routes `DELETE`.
 
-Les méthodes doivent être agencées de la même façon dans les controlleurs et les services, pour permettre de naviguer facilement dans le code.
+Les méthodes doivent être agencées de la même façon dans les contrôleurs et les services, pour permettre de naviguer facilement dans le code.
 
 </details>
 
