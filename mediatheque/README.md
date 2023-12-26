@@ -1,6 +1,6 @@
-# API interne pour une Médiathéque
+# API interne pour une Médiathèque
 
-Vous devez créer une API pour les employés d'une médiathèque, ces employés doivent référencés chaque livre sur le site de la médiathèque pour examiner les disponibilités des livres.
+Vous devez créer une API pour les employés d'une médiathèque, ces employés doivent référencer chaque livre sur le site de la médiathèque pour examiner les disponibilités des livres.
 
 ## Spécifications fonctionnelles
 
@@ -8,7 +8,7 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
 
 - Les employés doivent être composés des champs :
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
-  - Un prénon (De type VARCHAR et de longueur 20 (maximale))
+  - Un prénom (De type VARCHAR et de longueur 20 (maximale))
   - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
   - Une adresse e-mail (De type VARCHAR et de longueur 80 (maximale))
   - Un mot de passe (De type VARCHAR et de longueur 72 (minimale et maximale))
@@ -19,20 +19,20 @@ Vous devez créer une API pour les employés d'une médiathèque, ces employés 
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
   - Un nom (De type VARCHAR et de longueur 40 (maximale))
   - Une description (De type TEXT et de longueur 500 (maximale))
-  - L'UUID d'un autheur
+  - L'UUID d'un auteur
 
-### Autheurs
+### Auteurs
 
-- Les autheurs doivent être composés des champs :
+- Les auteurs doivent être composés des champs :
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
-  - Un prénon (De type VARCHAR et de longueur 20 (maximale))
+  - Un prénom (De type VARCHAR et de longueur 20 (maximale))
   - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
 
 ### Emprunteurs
 
 - Les emprunteurs doivent être composés des champs : 
   - UUID (De type VARCHAR et de longueur 36 (minimale et maximale))
-  - Un prénon (De type VARCHAR et de longueur 20 (maximale))
+  - Un prénom (De type VARCHAR et de longueur 20 (maximale))
   - Un nom de famille (De type VARCHAR et de longueur 30 (maximale))
   
 ### Emprunts

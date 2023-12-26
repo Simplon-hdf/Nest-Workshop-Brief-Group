@@ -4,7 +4,7 @@ Ce repository est dédié au Workshop Nest pour la promo ".Net Roubaix P4", il f
 
 ## Contraintes pour la méthodologie de travail
 
-Vous devez travaillez en groupe sur un des projets présentés ci-dessous. Pour ce faire, vous devez travailler en collaboration par groupe de 3. Vous devez utilisé Git pour collaborer ainsi que le workflow Gitflow. Vous travaillez sur un repository commun (une seule origin pour tous les membres).
+Vous devez travailler en groupe sur un des projets présentés ci-dessous. Pour ce faire, vous devez travailler en collaboration par groupe de 3. Vous devez utiliser Git pour collaborer ainsi que le workflow Gitflow. Vous travaillez sur un repository commun (une seule origine pour tous les membres).
 
 ## Les projets disponibles
 
@@ -14,7 +14,7 @@ Vous devez travaillez en groupe sur un des projets présentés ci-dessous. Pour 
 
 ## Qualité de code
 
-- Les méthodes dans les controlleurs et dans les services doivent être nommées de la même façon.
+- Les méthodes dans les contrôleurs et dans les services doivent être nommées de la même façon.
 <details>
 <summary>Exemple</summary>
 
@@ -86,7 +86,7 @@ Dans l'ordre :
 - Les routes `PUT/PATCH`.
 - Les routes `DELETE`.
 
-Les méthodes doivent être agencées de la même façon dans les controlleurs et les services, pour permettre de naviguer facilement dans le code.
+Les méthodes doivent être agencées de la même façon dans les contrôleurs et les services, pour permettre de naviguer facilement dans le code.
 
 </details>
 
